@@ -1,0 +1,9 @@
+
+void soft_reset() {
+pinMode(0,OUTPUT);
+digitalWrite(0,1);
+pinMode(2,OUTPUT);
+digitalWrite(2,1);
+
+ESP.restart();
+}
